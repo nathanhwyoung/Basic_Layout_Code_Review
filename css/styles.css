@@ -1,0 +1,48 @@
+.header {
+    background-color: pink;
+    overflow: auto;
+}
+
+.size {
+    height:30px;
+}
+
+.icons {
+    background-color: Aqua;
+    float:right;
+    margin:25px;
+}
+
+.library {
+    background-color: Yellow;
+    font-family: 'Varela Round', sans-serif;
+    float:left;
+    font-size: 40px;
+    margin:20px;
+}
+
+.modules {
+    overflow: auto;
+}
+
+.java {
+    background-color: Cyan;
+
+    float: left;
+}
+
+.django {
+    float: right;
+    background-color: Coral;
+
+}
+
+.woo {
+    background-color: Chartreuse;
+    float: left;
+}
+
+.javafx{
+    background-color: CadetBlue;
+    float: right;
+}
