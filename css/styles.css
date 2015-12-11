@@ -1,5 +1,7 @@
+/* HEADER ELEMENTS */
+
 .header {
-    background-color: pink;
+    /*background-color: pink;*/
     overflow: auto;
 }
 
@@ -8,33 +10,60 @@
 }
 
 .icons {
-    background-color: Aqua;
+    /*background-color: Aqua;*/
     float:right;
     margin:25px;
 }
 
 .library {
-    background-color: Yellow;
-    font-family: 'Varela Round', sans-serif;
+    /*background-color: Yellow;*/
+    font-family: 'Varela Round';
     float:left;
     font-size: 40px;
     margin:20px;
+}
+
+/* BODY ELEMENTS */
+
+body {
+    background-color: rgb(237, 239, 240);
 }
 
 .modules {
     overflow: auto;
 }
 
+.box {
+    margin:1%;
+    width:48%;
+    height:220px;
+}
+
+.box-body {
+    padding:3%;
+}
+
+.head {
+    width:100%;
+    height:20%;
+}
+
 .java {
     background-color: Cyan;
-
     float: left;
 }
 
-.django {
-    float: right;
-    background-color: Coral;
+.java-head {
+    background-color: rgb(44,150,118);
+}
 
+.django {
+    background-color: Coral;
+    float: right;
+}
+
+.django-head {
+    background-color: rgb(240,146,176);
 }
 
 .woo {
@@ -42,7 +71,15 @@
     float: left;
 }
 
-.javafx{
+.woo-head {
+    background-color: rgb(131,140,199);
+}
+
+.javafx {
     background-color: CadetBlue;
     float: right;
+}
+
+.javafx-head {
+    background-color: rgb(44,150,118);
 }
