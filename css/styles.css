@@ -7,6 +7,12 @@
 
 .size {
     height:30px;
+    margin:7px;
+}
+
+.size-sun {
+    height:20px;
+    margin:10px;
 }
 
 .icons {
@@ -27,6 +33,13 @@
 
 body {
     background-color: rgb(237, 239, 240);
+    font-family: 'Varela Round';
+}
+
+h5 {
+    font-family: 'Varela Round';
+    float:right;
+    margin:2%;;
 }
 
 .modules {
@@ -35,21 +48,35 @@ body {
 
 .box {
     margin:1%;
+    margin-bottom: 3%;
     width:48%;
-    height:220px;
+    height:300px;
+    border-radius: 10px;
+    overflow: auto;
 }
 
 .box-body {
     padding:3%;
+    background-color: white;
+    height:250px;
 }
 
 .head {
     width:100%;
-    height:20%;
+    height:16%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.buttons {
+    float: left;
+}
+
+.play-star {
+    float: right;
+    margin: auto;
 }
 
 .java {
-    background-color: Cyan;
     float: left;
 }
 
@@ -58,7 +85,6 @@ body {
 }
 
 .django {
-    background-color: Coral;
     float: right;
 }
 
@@ -67,7 +93,6 @@ body {
 }
 
 .woo {
-    background-color: Chartreuse;
     float: left;
 }
 
@@ -76,7 +101,6 @@ body {
 }
 
 .javafx {
-    background-color: CadetBlue;
     float: right;
 }
 
