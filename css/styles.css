@@ -31,6 +31,16 @@
 
 /* BODY ELEMENTS */
 
+#overlay {
+    position: absolute;
+    top: 260px;
+    left: 545px;
+}
+
+#overlay-text {
+    
+}
+
 body {
     background-color: rgb(237, 239, 240);
     font-family: 'Varela Round';
