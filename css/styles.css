@@ -38,7 +38,7 @@
 }
 
 #overlay-text {
-    
+
 }
 
 body {
@@ -54,6 +54,7 @@ h5 {
 
 .modules {
     overflow: auto;
+	min-width: 700px;
 }
 
 .box {
